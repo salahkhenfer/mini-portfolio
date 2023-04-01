@@ -62,9 +62,9 @@ transition: 0.5s;
 .navbar  a::before {
 content: "";
 position: absolute;
-height: 2px ;
+height: 3px ;
 left: 0;
-bottom:-5px ;
+bottom:-6px ;
 width: 0;
 transition: 0.3s;
 background-color: #fff;
@@ -331,6 +331,7 @@ border-left: 400px  solid transparent;
   
   background-color: #dedadc;
   height: 30px;
+  border-radius: 4px;
  }
 
  .our-skills .container .skills .prog span  { 
@@ -338,6 +339,8 @@ border-left: 400px  solid transparent;
   background-color: var(--main-color);
   height: 100%;
   position: relative;
+  border-radius: 4px;
+  
   
 }
 .our-skills .container .skills  .prog span::before {
@@ -358,7 +361,7 @@ border-left: 400px  solid transparent;
   border-width: 8px;
   border-color: black transparent transparent transparent;
   position: absolute;
-  top: -12px;
+  top: -9px;
   right: -7px;
 } 
 
@@ -468,6 +471,11 @@ background-color: var(--primary-color);
 .project-link:hover {
   background-color: #34495e;
 }
+
+
+
+
+/* start footer style */
 
 .footer {
   padding:10px;
